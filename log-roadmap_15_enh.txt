@@ -1,0 +1,10 @@
+
+** Run function: db_venn.r/draw_upset function **
+[1] "/data/roadmap_status_bed/roadmap_15_status-6_EnhG_226.bed"
+[2] "/data/roadmap_status_bed/roadmap_15_status-7_Enh_1012.bed"
+2 File(s) is/are input.
+
+Write file: /data/genome_tsv/roadmap_15-enh_binary.tsv
+Write file: /data/summary_bed/roadmap_15-enh_1045.bed
+
+Job done: 2021-12-20 03:40:53 for 8.3 sec

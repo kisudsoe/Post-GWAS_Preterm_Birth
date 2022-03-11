@@ -1,0 +1,12 @@
+
+** Run function: db_filter.r/distance_filt_multi...
+Input file/folder N	= [1] 1
+Input file N	= [1] 1
+
+** Run function: db_filter.r/distance_filt... Ready
+  File encode_tfbs... nrow= 3279.. done
+  Annotations occupied by SNPs	= [1] 1019
+  SNPs in annotations		= [1] 288
+  Write file: /data/summary_bed/snp_encode_tfbs_288.bed
+Job done: 2021-12-20 03:40:46 for 1.2 sec
+

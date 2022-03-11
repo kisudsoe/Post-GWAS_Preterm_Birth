@@ -1,0 +1,97 @@
+
+** Run split_tfbs function in enrich.r **
+
+* ENCODE TFBS table = [1] 1113   11
+* 89 unique cell types are found.
+
+1 A549:	119 regions, filtering [..........] row = 119, TFs = 23. Save: /data/encode_tsv/A549.tsv; Job process: 0.6 sec
+2 AG04449:	17 regions, filtering [.................] row = 17, TFs = 1. Save: /data/encode_tsv/AG04449.tsv; Job process: 0.1 sec
+3 AG04450:	16 regions, filtering [................] row = 16, TFs = 1. Save: /data/encode_tsv/AG04450.tsv; Job process: 0.1 sec
+4 AG09309:	14 regions, filtering [..............] row = 14, TFs = 1. Save: /data/encode_tsv/AG09309.tsv; Job process: 0.1 sec
+5 AG09319:	17 regions, filtering [.................] row = 17, TFs = 1. Save: /data/encode_tsv/AG09319.tsv; Job process: 0.1 sec
+6 AG10803:	17 regions, filtering [.................] row = 17, TFs = 1. Save: /data/encode_tsv/AG10803.tsv; Job process: 0.1 sec
+7 AoAF:	15 regions, filtering [...............] row = 15, TFs = 1. Save: /data/encode_tsv/AoAF.tsv; Job process: 0.1 sec
+8 BE2_C:	17 regions, filtering [.................] row = 17, TFs = 1. Save: /data/encode_tsv/BE2_C.tsv; Job process: 0.1 sec
+9 BJ:	16 regions, filtering [................] row = 16, TFs = 1. Save: /data/encode_tsv/BJ.tsv; Job process: 0.1 sec
+10 Caco-2:	13 regions, filtering [.............] row = 13, TFs = 1. Save: /data/encode_tsv/Caco-2.tsv; Job process: 0.1 sec
+11 Dnd41:	16 regions, filtering [................] row = 16, TFs = 1. Save: /data/encode_tsv/Dnd41.tsv; Job process: 0.1 sec
+12 ECC-1:	19 regions, filtering [...................] row = 19, TFs = 3. Save: /data/encode_tsv/ECC-1.tsv; Job process: 0.1 sec
+13 Fibrobl:	15 regions, filtering [...............] row = 15, TFs = 1. Save: /data/encode_tsv/Fibrobl.tsv; Job process: 0.1 sec
+14 GM06990:	13 regions, filtering [.............] row = 13, TFs = 1. Save: /data/encode_tsv/GM06990.tsv; Job process: 0.1 sec
+15 GM10847:	9 regions, filtering [.........] row = 9, TFs = 2. Save: /data/encode_tsv/GM10847.tsv; Job process: 0 sec
+16 GM12801:	2 regions, filtering [..] row = 2, TFs = 1. Save: /data/encode_tsv/GM12801.tsv; Job process: 0 sec
+17 GM12864:	18 regions, filtering [..................] row = 18, TFs = 1. Save: /data/encode_tsv/GM12864.tsv; Job process: 0.1 sec
+18 GM12865:	15 regions, filtering [...............] row = 15, TFs = 1. Save: /data/encode_tsv/GM12865.tsv; Job process: 0.1 sec
+19 GM12872:	19 regions, filtering [...................] row = 19, TFs = 1. Save: /data/encode_tsv/GM12872.tsv; Job process: 0.1 sec
+20 GM12873:	18 regions, filtering [..................] row = 18, TFs = 1. Save: /data/encode_tsv/GM12873.tsv; Job process: 0.1 sec
+21 GM12874:	14 regions, filtering [..............] row = 14, TFs = 1. Save: /data/encode_tsv/GM12874.tsv; Job process: 0.1 sec
+22 GM12875:	12 regions, filtering [............] row = 12, TFs = 1. Save: /data/encode_tsv/GM12875.tsv; Job process: 0.1 sec
+23 GM12878:	270 regions, filtering [..........] row = 270, TFs = 58. Save: /data/encode_tsv/GM12878.tsv; Job process: 0.8 sec
+24 GM12891:	62 regions, filtering [..........] row = 62, TFs = 8. Save: /data/encode_tsv/GM12891.tsv; Job process: 0.2 sec
+25 GM12892:	41 regions, filtering [..........] row = 41, TFs = 6. Save: /data/encode_tsv/GM12892.tsv; Job process: 0.1 sec
+26 GM15510:	13 regions, filtering [.............] row = 13, TFs = 2. Save: /data/encode_tsv/GM15510.tsv; Job process: 0.1 sec
+27 GM18505:	10 regions, filtering [..........] row = 10, TFs = 2. Save: /data/encode_tsv/GM18505.tsv; Job process: 0 sec
+28 GM18526:	10 regions, filtering [..........] row = 10, TFs = 2. Save: /data/encode_tsv/GM18526.tsv; Job process: 0.1 sec
+29 GM18951:	17 regions, filtering [.................] row = 17, TFs = 2. Save: /data/encode_tsv/GM18951.tsv; Job process: 0.1 sec
+30 GM19099:	11 regions, filtering [...........] row = 11, TFs = 2. Save: /data/encode_tsv/GM19099.tsv; Job process: 0.1 sec
+31 GM19193:	9 regions, filtering [.........] row = 9, TFs = 2. Save: /data/encode_tsv/GM19193.tsv; Job process: 0.1 sec
+32 GM19238:	17 regions, filtering [.................] row = 17, TFs = 1. Save: /data/encode_tsv/GM19238.tsv; Job process: 0.1 sec
+33 GM19239:	14 regions, filtering [..............] row = 14, TFs = 1. Save: /data/encode_tsv/GM19239.tsv; Job process: 0.1 sec
+34 GM19240:	17 regions, filtering [.................] row = 17, TFs = 1. Save: /data/encode_tsv/GM19240.tsv; Job process: 0.1 sec
+35 Gliobla:	24 regions, filtering [............] row = 24, TFs = 2. Save: /data/encode_tsv/Gliobla.tsv; Job process: 0.1 sec
+36 H1-hESC:	141 regions, filtering [..........] row = 141, TFs = 36. Save: /data/encode_tsv/H1-hESC.tsv; Job process: 0.4 sec
+37 HA-sp:	15 regions, filtering [...............] row = 15, TFs = 1. Save: /data/encode_tsv/HA-sp.tsv; Job process: 0.1 sec
+38 HAc:	15 regions, filtering [...............] row = 15, TFs = 1. Save: /data/encode_tsv/HAc.tsv; Job process: 0.1 sec
+39 HBMEC:	19 regions, filtering [...................] row = 19, TFs = 1. Save: /data/encode_tsv/HBMEC.tsv; Job process: 0.1 sec
+40 HCFaa:	16 regions, filtering [................] row = 16, TFs = 1. Save: /data/encode_tsv/HCFaa.tsv; Job process: 0.1 sec
+41 HCM:	17 regions, filtering [.................] row = 17, TFs = 1. Save: /data/encode_tsv/HCM.tsv; Job process: 0.1 sec
+42 HCPEpiC:	19 regions, filtering [...................] row = 19, TFs = 1. Save: /data/encode_tsv/HCPEpiC.tsv; Job process: 0.1 sec
+43 HCT-116:	37 regions, filtering [............] row = 37, TFs = 5. Save: /data/encode_tsv/HCT-116.tsv; Job process: 0.1 sec
+44 HEEpiC:	15 regions, filtering [...............] row = 15, TFs = 1. Save: /data/encode_tsv/HEEpiC.tsv; Job process: 0.1 sec
+45 HEK293:	35 regions, filtering [...........] row = 28, TFs = 4. Save: /data/encode_tsv/HEK293.tsv; Job process: 0.1 sec
+46 HEK293-T-REx:	7 regions, filtering [.......] row = 7, TFs = 1. Save: /data/encode_tsv/HEK293-T-REx.tsv; Job process: 0 sec
+47 HFF:	14 regions, filtering [..............] row = 12, TFs = 1. Save: /data/encode_tsv/HFF.tsv; Job process: 0.1 sec
+48 HFF-Myc:	14 regions, filtering [..............] row = 14, TFs = 1. Save: /data/encode_tsv/HFF-Myc.tsv; Job process: 0.1 sec
+49 HL-60:	5 regions, filtering [.....] row = 5, TFs = 1. Save: /data/encode_tsv/HL-60.tsv; Job process: 0 sec
+50 HMEC:	23 regions, filtering [...........] row = 23, TFs = 2. Save: /data/encode_tsv/HMEC.tsv; Job process: 0.1 sec
+51 HMF:	19 regions, filtering [...................] row = 19, TFs = 1. Save: /data/encode_tsv/HMF.tsv; Job process: 0.1 sec
+52 HPAF:	17 regions, filtering [.................] row = 17, TFs = 1. Save: /data/encode_tsv/HPAF.tsv; Job process: 0.1 sec
+53 HPF:	18 regions, filtering [..................] row = 18, TFs = 1. Save: /data/encode_tsv/HPF.tsv; Job process: 0.1 sec
+54 HRE:	9 regions, filtering [.........] row = 9, TFs = 1. Save: /data/encode_tsv/HRE.tsv; Job process: 0 sec
+55 HRPEpiC:	20 regions, filtering [..........] row = 20, TFs = 1. Save: /data/encode_tsv/HRPEpiC.tsv; Job process: 0.1 sec
+56 HSMM:	18 regions, filtering [..................] row = 16, TFs = 1. Save: /data/encode_tsv/HSMM.tsv; Job process: 0.1 sec
+57 HSMMtube:	14 regions, filtering [..............] row = 14, TFs = 1. Save: /data/encode_tsv/HSMMtube.tsv; Job process: 0.1 sec
+58 HUVEC:	66 regions, filtering [...........] row = 66, TFs = 8. Save: /data/encode_tsv/HUVEC.tsv; Job process: 0.2 sec
+59 HVMF:	17 regions, filtering [.................] row = 17, TFs = 1. Save: /data/encode_tsv/HVMF.tsv; Job process: 0.1 sec
+60 HeLa-S3:	170 regions, filtering [..........] row = 170, TFs = 36. Save: /data/encode_tsv/HeLa-S3.tsv; Job process: 0.5 sec
+61 HepG2:	287 regions, filtering [..........] row = 287, TFs = 47. Save: /data/encode_tsv/HepG2.tsv; Job process: 0.8 sec
+62 IMR90:	52 regions, filtering [..........] row = 52, TFs = 5. Save: /data/encode_tsv/IMR90.tsv; Job process: 0.1 sec
+63 K562:	334 regions, filtering [..........] row = 334, TFs = 73. Save: /data/encode_tsv/K562.tsv; Job process: 0.8 sec
+64 MCF-7:	81 regions, filtering [..........] row = 81, TFs = 7. Save: /data/encode_tsv/MCF-7.tsv; Job process: 0.2 sec
+65 MCF10A-Er-Src:	46 regions, filtering [...........] row = 46, TFs = 5. Save: /data/encode_tsv/MCF10A-Er-Src.tsv; Job process: 0.1 sec
+66 NB4:	41 regions, filtering [..........] row = 41, TFs = 4. Save: /data/encode_tsv/NB4.tsv; Job process: 0.1 sec
+67 NH-A:	12 regions, filtering [............] row = 12, TFs = 2. Save: /data/encode_tsv/NH-A.tsv; Job process: 0.1 sec
+68 NHDF-Ad:	17 regions, filtering [.................] row = 17, TFs = 2. Save: /data/encode_tsv/NHDF-Ad.tsv; Job process: 0.1 sec
+69 NHDF-neo:	15 regions, filtering [...............] row = 15, TFs = 1. Save: /data/encode_tsv/NHDF-neo.tsv; Job process: 0.1 sec
+70 NHEK:	27 regions, filtering [.............] row = 27, TFs = 3. Save: /data/encode_tsv/NHEK.tsv; Job process: 0.1 sec
+71 NHLF:	14 regions, filtering [..............] row = 14, TFs = 2. Save: /data/encode_tsv/NHLF.tsv; Job process: 0.1 sec
+72 NT2-D1:	2 regions, filtering [..] row = 2, TFs = 2. Save: /data/encode_tsv/NT2-D1.tsv; Job process: 0 sec
+73 Osteobl:	19 regions, filtering [...................] row = 19, TFs = 1. Save: /data/encode_tsv/Osteobl.tsv; Job process: 0.1 sec
+74 PANC-1:	13 regions, filtering [.............] row = 13, TFs = 4. Save: /data/encode_tsv/PANC-1.tsv; Job process: 0.1 sec
+75 PBDE:	17 regions, filtering [.................] row = 17, TFs = 2. Save: /data/encode_tsv/PBDE.tsv; Job process: 0.1 sec
+76 PFSK-1:	10 regions, filtering [..........] row = 10, TFs = 3. Save: /data/encode_tsv/PFSK-1.tsv; Job process: 0.1 sec
+77 ProgFib:	21 regions, filtering [..........] row = 21, TFs = 2. Save: /data/encode_tsv/ProgFib.tsv; Job process: 0.1 sec
+78 RPTEC:	19 regions, filtering [...................] row = 19, TFs = 1. Save: /data/encode_tsv/RPTEC.tsv; Job process: 0.1 sec
+79 Raji:	7 regions, filtering [.......] row = 7, TFs = 1. Save: /data/encode_tsv/Raji.tsv; Job process: 0 sec
+80 SAEC:	11 regions, filtering [...........] row = 11, TFs = 1. Save: /data/encode_tsv/SAEC.tsv; Job process: 0.1 sec
+81 SH-SY5Y:	19 regions, filtering [...................] row = 19, TFs = 2. Save: /data/encode_tsv/SH-SY5Y.tsv; Job process: 0.1 sec
+82 SK-N-MC:	12 regions, filtering [............] row = 12, TFs = 2. Save: /data/encode_tsv/SK-N-MC.tsv; Job process: 0.1 sec
+83 SK-N-SH:	86 regions, filtering [..........] row = 27, TFs = 4. Save: /data/encode_tsv/SK-N-SH.tsv; Job process: 0.2 sec
+84 SK-N-SH_RA:	59 regions, filtering [...........] row = 59, TFs = 5. Save: /data/encode_tsv/SK-N-SH_RA.tsv; Job process: 0.2 sec
+85 T-47D:	43 regions, filtering [..........] row = 43, TFs = 5. Save: /data/encode_tsv/T-47D.tsv; Job process: 0.2 sec
+86 U2OS:	19 regions, filtering [...................] row = 19, TFs = 2. Save: /data/encode_tsv/U2OS.tsv; Job process: 0.1 sec
+87 U87:	16 regions, filtering [................] row = 16, TFs = 2. Save: /data/encode_tsv/U87.tsv; Job process: 0.1 sec
+88 WERI-Rb-1:	16 regions, filtering [................] row = 16, TFs = 1. Save: /data/encode_tsv/WERI-Rb-1.tsv; Job process: 0.1 sec
+89 WI-38:	13 regions, filtering [.............] row = 13, TFs = 1. Save: /data/encode_tsv/WI-38.tsv; Job process: 0.1 sec
+
+Job done: 2021-12-20 03:36:04 for 12 sec

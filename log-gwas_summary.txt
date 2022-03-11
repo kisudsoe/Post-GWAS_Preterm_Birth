@@ -1,0 +1,172 @@
+sub_dir = [1] "FALSE"
+
+** Run function: db_venn.r/summ_ann **
+ready
+140 Files/folders input.
+  1 /data/encode_bed/snp_encode_A549.bed
+  2 /data/encode_bed/snp_encode_AG04449.bed
+  3 /data/encode_bed/snp_encode_AG04450.bed
+  4 /data/encode_bed/snp_encode_AG09309.bed
+  5 /data/encode_bed/snp_encode_AG09319.bed
+  6 /data/encode_bed/snp_encode_AG10803.bed
+  7 /data/encode_bed/snp_encode_AoAF.bed
+  8 /data/encode_bed/snp_encode_BE2_C.bed
+  9 /data/encode_bed/snp_encode_BJ.bed
+  10 /data/encode_bed/snp_encode_Caco-2.bed
+  11 /data/encode_bed/snp_encode_Dnd41.bed
+  12 /data/encode_bed/snp_encode_ECC-1.bed
+  13 /data/encode_bed/snp_encode_Fibrobl.bed
+  14 /data/encode_bed/snp_encode_GM06990.bed
+  15 /data/encode_bed/snp_encode_GM10847.bed
+  16 /data/encode_bed/snp_encode_GM12801.bed
+  17 /data/encode_bed/snp_encode_GM12864.bed
+  18 /data/encode_bed/snp_encode_GM12865.bed
+  19 /data/encode_bed/snp_encode_GM12872.bed
+  20 /data/encode_bed/snp_encode_GM12873.bed
+  21 /data/encode_bed/snp_encode_GM12874.bed
+  22 /data/encode_bed/snp_encode_GM12875.bed
+  23 /data/encode_bed/snp_encode_GM12878.bed
+  24 /data/encode_bed/snp_encode_GM12891.bed
+  25 /data/encode_bed/snp_encode_GM12892.bed
+  26 /data/encode_bed/snp_encode_GM15510.bed
+  27 /data/encode_bed/snp_encode_GM18505.bed
+  28 /data/encode_bed/snp_encode_GM18526.bed
+  29 /data/encode_bed/snp_encode_GM18951.bed
+  30 /data/encode_bed/snp_encode_GM19099.bed
+  31 /data/encode_bed/snp_encode_GM19193.bed
+  32 /data/encode_bed/snp_encode_GM19238.bed
+  33 /data/encode_bed/snp_encode_GM19239.bed
+  34 /data/encode_bed/snp_encode_GM19240.bed
+  35 /data/encode_bed/snp_encode_Gliobla.bed
+  36 /data/encode_bed/snp_encode_H1-hESC.bed
+  37 /data/encode_bed/snp_encode_HA-sp.bed
+  38 /data/encode_bed/snp_encode_HAc.bed
+  39 /data/encode_bed/snp_encode_HBMEC.bed
+  40 /data/encode_bed/snp_encode_HCFaa.bed
+  41 /data/encode_bed/snp_encode_HCM.bed
+  42 /data/encode_bed/snp_encode_HCPEpiC.bed
+  43 /data/encode_bed/snp_encode_HCT-116.bed
+  44 /data/encode_bed/snp_encode_HEEpiC.bed
+  45 /data/encode_bed/snp_encode_HEK293-T-REx.bed
+  46 /data/encode_bed/snp_encode_HEK293.bed
+  47 /data/encode_bed/snp_encode_HFF-Myc.bed
+  48 /data/encode_bed/snp_encode_HFF.bed
+  49 /data/encode_bed/snp_encode_HL-60.bed
+  50 /data/encode_bed/snp_encode_HMEC.bed
+  51 /data/encode_bed/snp_encode_HMF.bed
+  52 /data/encode_bed/snp_encode_HPAF.bed
+  53 /data/encode_bed/snp_encode_HPF.bed
+  54 /data/encode_bed/snp_encode_HRE.bed
+  55 /data/encode_bed/snp_encode_HRPEpiC.bed
+  56 /data/encode_bed/snp_encode_HSMM.bed
+  57 /data/encode_bed/snp_encode_HSMMtube.bed
+  58 /data/encode_bed/snp_encode_HUVEC.bed
+  59 /data/encode_bed/snp_encode_HVMF.bed
+  60 /data/encode_bed/snp_encode_HeLa-S3.bed
+  61 /data/encode_bed/snp_encode_HepG2.bed
+  62 /data/encode_bed/snp_encode_IMR90.bed
+  63 /data/encode_bed/snp_encode_K562.bed
+  64 /data/encode_bed/snp_encode_MCF-7.bed
+  65 /data/encode_bed/snp_encode_MCF10A-Er-Src.bed
+  66 /data/encode_bed/snp_encode_NB4.bed
+  67 /data/encode_bed/snp_encode_NH-A.bed
+  68 /data/encode_bed/snp_encode_NHDF-Ad.bed
+  69 /data/encode_bed/snp_encode_NHDF-neo.bed
+  70 /data/encode_bed/snp_encode_NHEK.bed
+  71 /data/encode_bed/snp_encode_NHLF.bed
+  72 /data/encode_bed/snp_encode_NT2-D1.bed
+  73 /data/encode_bed/snp_encode_Osteobl.bed
+  74 /data/encode_bed/snp_encode_PANC-1.bed
+  75 /data/encode_bed/snp_encode_PBDE.bed
+  76 /data/encode_bed/snp_encode_PFSK-1.bed
+  77 /data/encode_bed/snp_encode_ProgFib.bed
+  78 /data/encode_bed/snp_encode_RPTEC.bed
+  79 /data/encode_bed/snp_encode_Raji.bed
+  80 /data/encode_bed/snp_encode_SAEC.bed
+  81 /data/encode_bed/snp_encode_SH-SY5Y.bed
+  82 /data/encode_bed/snp_encode_SK-N-MC.bed
+  83 /data/encode_bed/snp_encode_SK-N-SH.bed
+  84 /data/encode_bed/snp_encode_SK-N-SH_RA.bed
+  85 /data/encode_bed/snp_encode_T-47D.bed
+  86 /data/encode_bed/snp_encode_U2OS.bed
+  87 /data/encode_bed/snp_encode_U87.bed
+  88 /data/encode_bed/snp_encode_WERI-Rb-1.bed
+  89 /data/encode_bed/snp_encode_WI-38.bed
+  90 /data/gtex_eqtl/snp_gtex_Adipose_Subcutaneous_78.bed
+  91 /data/gtex_eqtl/snp_gtex_Adipose_Visceral_Omentum_53.bed
+  92 /data/gtex_eqtl/snp_gtex_Adrenal_Gland_33.bed
+  93 /data/gtex_eqtl/snp_gtex_Artery_Aorta_44.bed
+  94 /data/gtex_eqtl/snp_gtex_Artery_Coronary_29.bed
+  95 /data/gtex_eqtl/snp_gtex_Artery_Tibial_120.bed
+  96 /data/gtex_eqtl/snp_gtex_Brain_Cerebellum_41.bed
+  97 /data/gtex_eqtl/snp_gtex_Breast_Mammary_Tissue_41.bed
+  98 /data/gtex_eqtl/snp_gtex_Cells_Cultured_fibroblasts_190.bed
+  99 /data/gtex_eqtl/snp_gtex_Colon_Sigmoid_48.bed
+  100 /data/gtex_eqtl/snp_gtex_Colon_Transverse_38.bed
+  101 /data/gtex_eqtl/snp_gtex_Esophagus_Gastroesophageal_Junction_64.bed
+  102 /data/gtex_eqtl/snp_gtex_Esophagus_Mucosa_44.bed
+  103 /data/gtex_eqtl/snp_gtex_Esophagus_Muscularis_95.bed
+  104 /data/gtex_eqtl/snp_gtex_Heart_Atrial_Appendage_38.bed
+  105 /data/gtex_eqtl/snp_gtex_Heart_Left_Ventricle_38.bed
+  106 /data/gtex_eqtl/snp_gtex_Liver_6.bed
+  107 /data/gtex_eqtl/snp_gtex_Lung_46.bed
+  108 /data/gtex_eqtl/snp_gtex_Muscle_Skeletal_67.bed
+  109 /data/gtex_eqtl/snp_gtex_Nerve_Tibial_115.bed
+  110 /data/gtex_eqtl/snp_gtex_Ovary_1.bed
+  111 /data/gtex_eqtl/snp_gtex_Pancreas_26.bed
+  112 /data/gtex_eqtl/snp_gtex_Skin_Not_Sun_Exposed_Suprapubic_88.bed
+  113 /data/gtex_eqtl/snp_gtex_Skin_Sun_Exposed_Lower_leg_97.bed
+  114 /data/gtex_eqtl/snp_gtex_Spleen_1.bed
+  115 /data/gtex_eqtl/snp_gtex_Stomach_10.bed
+  116 /data/gtex_eqtl/snp_gtex_Testis_138.bed
+  117 /data/gtex_eqtl/snp_gtex_Thyroid_6.bed
+  118 /data/gtex_eqtl/snp_gtex_Uterus_27.bed
+  119 /data/gtex_eqtl/snp_gtex_Whole_Blood_8.bed
+  120 /data/summary_bed/Corces-Cicero_anchor_1.bed
+  121 /data/summary_bed/Corces-HiChIP-anchor_20.bed
+  122 /data/summary_bed/Corces-scATAC_brain_6_cell-type_57.bed
+  123 /data/summary_bed/Nott_interactome_anchor_704.bed
+  124 /data/summary_bed/Nott_pro_enh_sup_enh_303.bed
+  125 /data/summary_bed/enh_prom_tfbs_228.bed
+  126 /data/summary_bed/gtex_eqtl_460.bed
+  127 /data/summary_bed/overlap-1_16.bed
+  128 /data/summary_bed/overlap-2_66.bed
+  129 /data/summary_bed/roadmap_15-enh_1045.bed
+  130 /data/summary_bed/roadmap_15-enh_prom_1072.bed
+  131 /data/summary_bed/roadmap_18-enh_1036.bed
+  132 /data/summary_bed/roadmap_18-enh_prom_1064.bed
+  133 /data/summary_bed/roadmap_25-enh_566.bed
+  134 /data/summary_bed/roadmap_25-enh_prom_593.bed
+  135 /data/summary_bed/snp_encode_tfbs_288.bed
+  136 /data/summary_bed/snp_lncrnasnp_81.bed
+  137 /data/summary_bed/snp_regulome2b_22.bed
+  138 /data/summary_bed/snp_ucsc_cds_10.bed
+  139 /data/summary_bed/snp_ucsc_proximalPromoter_141.bed
+  140 /data/summary_bed/snp_ucsc_wholeGene_1480.bed
+Total 140 file(s) is/are input.
+
+** Run function: db_venn.r/venn_bed...
+  Read 140 files
+
+** Back to function: db_venn.r/summ...
+  Returned union list dim = [1] 1966  144
+  [PASS] uni_save = FALSE
+
+  Nearest gene dim = [1] 2566    9
+  Search biomaRt... 212.. parsing.. 201.. done
+  Sub-merge = [1] 2566    6
+  Extract snp-gene pair = [1] 2441    2
+  Merge dim = [1] 2566    6
+  Write a TSV file: /data/genome_tsv/summary_bed_nearest.tsv
+
+  GTEx dim = [1] 1689    7
+  Search biomaRt... 36.. parsing.. 35.. done
+  Merge dim = [1] 1689    9
+  Extract snp-eGene pair = [1] 460   2
+  Write a TSV file: /data/genome_tsv/summary_bed_gtex_slope_pivot.tsv
+
+  GWAS dim = [1] 2442    6
+  Merge dim = [1] 2442  148
+  Write a TSV file: /data/genome_tsv/summary_bed_gwas.tsv
+
+Job done: 2021-12-20 03:41:27 for 20.2 sec

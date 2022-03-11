@@ -1,0 +1,26 @@
+
+** Run pivot function in roadmap_summary.r **
+
+Read file: /data/gwas_biomart_2441.bed = [1] 2441    4
+* 127 files are found: Read [..........] = [1] 310007      3
+* Transform table -> done
+* File write: /data/genome_tsv/summary_roadmap_15_status.tsv
+* File write: /data/genome_tsv/summary_roadmap_15_status_cell_num.tsv
+1 10_TssBiv = [1] 15  4
+2 11_BivFlnk = [1] 9 4
+3 12_EnhBiv = [1] 72  4
+4 13_ReprPC = [1] 444   4
+5 14_ReprPCWk = [1] 1748    4
+6 15_Quies = [1] 2416    4
+7 1_TssA = [1] 104   4
+8 2_TssAFlnk = [1] 181   4
+9 3_TxFlnk = [1] 31  4
+10 4_Tx = [1] 504   4
+11 5_TxWk = [1] 1718    4
+12 6_EnhG = [1] 226   4
+13 7_Enh = [1] 1012    4
+14 8_ZNF.Rpts = [1] 175   4
+15 9_Het = [1] 1048    4
+* BED files wrote at "/data/roadmap_status_bed" folder.
+
+Job done: 2021-12-20 03:36:12 for 19.3 sec

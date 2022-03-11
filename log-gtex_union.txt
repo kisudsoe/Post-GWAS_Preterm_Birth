@@ -1,0 +1,38 @@
+
+** Run function: db_venn.r/draw_upset function **
+ [1] "/data/gtex_eqtl/snp_gtex_Adipose_Subcutaneous_78.bed"               
+ [2] "/data/gtex_eqtl/snp_gtex_Adipose_Visceral_Omentum_53.bed"           
+ [3] "/data/gtex_eqtl/snp_gtex_Adrenal_Gland_33.bed"                      
+ [4] "/data/gtex_eqtl/snp_gtex_Artery_Aorta_44.bed"                       
+ [5] "/data/gtex_eqtl/snp_gtex_Artery_Coronary_29.bed"                    
+ [6] "/data/gtex_eqtl/snp_gtex_Artery_Tibial_120.bed"                     
+ [7] "/data/gtex_eqtl/snp_gtex_Brain_Cerebellum_41.bed"                   
+ [8] "/data/gtex_eqtl/snp_gtex_Breast_Mammary_Tissue_41.bed"              
+ [9] "/data/gtex_eqtl/snp_gtex_Cells_Cultured_fibroblasts_190.bed"        
+[10] "/data/gtex_eqtl/snp_gtex_Colon_Sigmoid_48.bed"                      
+[11] "/data/gtex_eqtl/snp_gtex_Colon_Transverse_38.bed"                   
+[12] "/data/gtex_eqtl/snp_gtex_Esophagus_Gastroesophageal_Junction_64.bed"
+[13] "/data/gtex_eqtl/snp_gtex_Esophagus_Mucosa_44.bed"                   
+[14] "/data/gtex_eqtl/snp_gtex_Esophagus_Muscularis_95.bed"               
+[15] "/data/gtex_eqtl/snp_gtex_Heart_Atrial_Appendage_38.bed"             
+[16] "/data/gtex_eqtl/snp_gtex_Heart_Left_Ventricle_38.bed"               
+[17] "/data/gtex_eqtl/snp_gtex_Liver_6.bed"                               
+[18] "/data/gtex_eqtl/snp_gtex_Lung_46.bed"                               
+[19] "/data/gtex_eqtl/snp_gtex_Muscle_Skeletal_67.bed"                    
+[20] "/data/gtex_eqtl/snp_gtex_Nerve_Tibial_115.bed"                      
+[21] "/data/gtex_eqtl/snp_gtex_Ovary_1.bed"                               
+[22] "/data/gtex_eqtl/snp_gtex_Pancreas_26.bed"                           
+[23] "/data/gtex_eqtl/snp_gtex_Skin_Not_Sun_Exposed_Suprapubic_88.bed"    
+[24] "/data/gtex_eqtl/snp_gtex_Skin_Sun_Exposed_Lower_leg_97.bed"         
+[25] "/data/gtex_eqtl/snp_gtex_Spleen_1.bed"                              
+[26] "/data/gtex_eqtl/snp_gtex_Stomach_10.bed"                            
+[27] "/data/gtex_eqtl/snp_gtex_Testis_138.bed"                            
+[28] "/data/gtex_eqtl/snp_gtex_Thyroid_6.bed"                             
+[29] "/data/gtex_eqtl/snp_gtex_Uterus_27.bed"                             
+[30] "/data/gtex_eqtl/snp_gtex_Whole_Blood_8.bed"                         
+30 File(s) is/are input.
+
+Write file: /data/genome_tsv/gtex_eqtl_binary.tsv
+Write file: /data/summary_bed/gtex_eqtl_460.bed
+
+Job done: 2021-12-20 03:40:55 for 5.6 sec

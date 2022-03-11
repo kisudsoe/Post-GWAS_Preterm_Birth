@@ -1,0 +1,10 @@
+AUTHORS	DATE	SAMPLES	TRAITS	SNP_1e-5	SNP_5e-8
+Hong X (28598419)	2017-06-09	INIT: 461 African American spontaneous preterm birth mothers, 1,035 African American term birth mothers //REP: NA	Spontaneous preterm birth (maternal effect)	2	2
+Liu X (31477735)	2019-09-02	INIT: 1,139 European ancestry cases, 60,148 European ancestry controls //REP: 107 Finnish ancestry infant cases, 865 Finnish ancestry infant controls	Early spontaneous preterm birth	2	NA
+Tiensuu H (31194736)	2019-06-13	INIT: 101 Finnish ancestry infant cases, 419 Finnish ancestry infant controls //REP: NA	Spontaneous preterm birth without premature rupture of membranes	22	NA
+Tiensuu H (31194736)	2019-06-13	INIT: 133 Finnish ancestry infant cases, 419 Finnish ancestry infant controls //REP: NA	Spontaneous preterm birth with premature rupture of membranes	18	NA
+Tiensuu H (31194736)	2019-06-13	INIT: 172 Finnish ancestry infant cases, 419 Finnish ancestry infant controls //REP: NA	Early spontaneous preterm birth	13	NA
+Tiensuu H (31194736)	2019-06-13	INIT: 247 Finnish ancestry infant cases, 419 Finnish ancestry infant controls //REP: NA	Spontaneous preterm birth (preterm birth)	19	NA
+Tiensuu H (31194736)	2019-06-13	INIT: 75 Finnish ancestry infant cases, 419 Finnish ancestry infant controls //REP: NA	Moderate-to-late spontaneous preterm birth	24	NA
+Zhang H (25599974)	2015-01-19	INIT: 916 pre-term birth neonates, 935 term birth neonates //REP: 243 pre-term birth neonates, 149 term birth neonates	Spontaneous preterm birth (preterm birth)	5	1
+Zhang H (25599974)	2015-01-19	INIT: 935 pre-term delivery mothers, 946 term delivery mothers //REP: 66 European ancestry pre-term delivery mothers, 110 African American pre-term delivery mothers, 110 Hispanic pre-term delivery mothers, 7 pre-term delivery mothers,  37 European ancestry term delivery mothers, 84 African American term delivery mothers, 74 Hispanic term delivery mothers, 5 term delivery mothers	Spontaneous preterm birth (preterm delivery)	2	NA
