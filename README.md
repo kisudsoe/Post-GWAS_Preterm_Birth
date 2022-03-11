@@ -14,7 +14,7 @@ Candidate SNPs:
 * gwas_biomart_2443.tsv: A list of 2,443 candidate SNPs before removing an ALU element and an obsolete SNP rs72385215.
 * gwas_biomart_2441.bed: A list of 2,441 candidate SNPs for preterm birth to input the Post-GWAS analysis pipeline.
 * bedtools_closest_gencode_TSS.tsv: Bedtools closest result from candidate SNPs and gene TSS (Gencode V39, Grch37; https://www.gencodegenes.org/human/release_39lift37.html).
-* run-analysis.sh: This is a script to run the post-GWAS analysis program ().
+* run-analysis.sh: This is a script to run the post-GWAS analysis program (https://github.com/kisudsoe/PostGWAS-tools).
 
 Roadmap epigenomics:
 
